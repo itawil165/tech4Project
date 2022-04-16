@@ -1,6 +1,5 @@
 package homework;
 
-import primitives.Int;
 import utilities.ScannerHelper;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -35,7 +34,7 @@ public class Homework16 {
 
         System.out.println("Number of A or a in the entered String = " + aCount);
 
-        System.out.println("\n\t-------TASK 01 END-------\n");
+        System.out.println("\n\t-------TASK 02 END-------\n");
 
 // TASK 03
 
@@ -49,7 +48,7 @@ public class Homework16 {
 
         System.out.println("The number of positive integers in the Array is = " + positiveCount);
 
-        System.out.println("\n\t-------TASK 01 END-------\n");
+        System.out.println("\n\t-------TASK 03 END-------\n");
 
 // TASK 04
 
@@ -70,7 +69,7 @@ public class Homework16 {
 
         System.out.println(duplicatesRemoved);
 
-        System.out.println("\n\t-------TASK 01 END-------\n");
+        System.out.println("\n\t-------TASK 04 END-------\n");
 
 // TASK 05
 
@@ -92,7 +91,7 @@ public class Homework16 {
 
         System.out.println(duplicateStringsRemoved);
 
-        System.out.println("\n\t-------TASK 01 END-------\n");
+        System.out.println("\n\t-------TASK 05 END-------\n");
 
 // TASK 06
 
@@ -100,7 +99,7 @@ public class Homework16 {
 
         System.out.println(noExtraSpaces.replaceAll("\\s+", " ").trim()); // Using regex!
 
-        System.out.println("\n\t-------TASK 01 END-------\n");
+        System.out.println("\n\t-------TASK 06 END-------\n");
 
 // TASK 07
 
@@ -118,7 +117,7 @@ public class Homework16 {
 
         System.out.println(Arrays.toString(sum));
 
-        System.out.println("\n\t-------TASK 01 END-------\n");
+        System.out.println("\n\t-------TASK 07 END-------\n");
 
 // TASK 08
 
@@ -139,7 +138,7 @@ public class Homework16 {
         }
         System.out.println(numbers[closest]);
 
-        System.out.println("\n\t-------TASK 01 END-------\n");
+        System.out.println("\n\t-------TASK 08 END-------\n");
 
 
         System.out.println("\n\t//-----END PROGRAM-----//\n");
