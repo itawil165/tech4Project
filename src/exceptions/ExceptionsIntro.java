@@ -3,7 +3,7 @@ package exceptions;
 public class ExceptionsIntro {
     public static void main(String[] args) {
 
-        // unchecked exception --> Runtime exception (once program is ran)
+        // Unchecked Exception --> Runtime exception (once program is ran)
 
         String name = "John"; // 0 1 2 3 --> 4 indexes
 
