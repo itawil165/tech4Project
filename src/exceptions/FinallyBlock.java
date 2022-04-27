@@ -18,6 +18,9 @@ public class FinallyBlock {
         catch (Exception arrayException) {
             arrayException.printStackTrace();
         }
+        finally { // will always be executed even if there is no exception but will NOT resolve the exception
+            System.out.println("Exception has been reported");
+        }
 
         System.out.println("End of Program");
     }
