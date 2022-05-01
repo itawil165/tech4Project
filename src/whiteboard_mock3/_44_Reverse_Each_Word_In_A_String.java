@@ -1,7 +1,5 @@
 package whiteboard_mock3;
 
-import utilities.ScannerHelper;
-
 public class _44_Reverse_Each_Word_In_A_String {
 
     public static String reversed (String sentence) {
