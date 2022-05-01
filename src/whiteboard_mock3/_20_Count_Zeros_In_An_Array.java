@@ -13,6 +13,6 @@ public class _20_Count_Zeros_In_An_Array {
 
     public static void main(String[] args) {
 
-        System.out.println("There are " + countZero(new int[]{3, 5, 4, 0, 0}) + " zeroes");
+        System.out.println(countZero(new int[]{3, 5, 4, 0, 0}));
     }
 }
