@@ -1,5 +1,11 @@
 package homework;
 
+import primitives.Int;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class Homework19 {
 
     // TASK 01
@@ -20,10 +26,22 @@ public class Homework19 {
     // TASK 04
     public static boolean hasUpperCase (String str) {
         char[] charArr = str.toCharArray();
-        for (int i = 0; i < charArr.length; i++) {
-            if (charArr[i] > 64 && charArr[i] < 91) return true;
+        for (char c : charArr) {
+            if (c > 64 && c < 91) return true;
         }
         return false;
+    }
+
+    // TASK 05
+    public static int middleInt (int a, int b, int c) {
+        ArrayList<Integer> intArr = new ArrayList<>();
+        intArr.add(a);
+        intArr.add(b);
+        intArr.add(c);
+
+        Collections.sort(intArr);
+
+        return intArr.get(1);
     }
 
     public static void main(String[] args) {
@@ -38,5 +56,8 @@ public class Homework19 {
 
         // TASK 04
         System.out.println(hasUpperCase("TechGlobal"));
+
+        // TASK 05
+        System.out.println(middleInt(-1, 25, 10));
     }
 }

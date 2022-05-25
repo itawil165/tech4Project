@@ -19,6 +19,7 @@ public class IntroToArrays {
 
         // HOW TO GET A SINGLE ELEMENT FROM ARRAY
 
+
         String nameAt1 = names[1];
         System.out.println(nameAt1); // Abe
         System.out.println(names[0]); // Alex
