@@ -33,7 +33,7 @@ public class Homework19 {
     public static boolean hasUpperCase (String str) {
         char[] charArr = str.toCharArray();
         for (char c : charArr) {
-            if (c > 64 && c < 91) return true;
+            if (c >= 65 && c <= 90) return true;
         }
         return false;
     }
