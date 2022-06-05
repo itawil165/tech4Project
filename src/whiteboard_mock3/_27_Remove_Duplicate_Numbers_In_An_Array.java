@@ -25,12 +25,12 @@ public class _27_Remove_Duplicate_Numbers_In_An_Array {
     public static int[] noDupes2(int[] numbers){
 
         HashSet<Integer> noDupes = new HashSet<>();
-        for(int i : numbers) noDupes.add(i);
+        for (int i : numbers) noDupes.add(i);
 
         int[] arr = new int[noDupes.size()];
 
         int index = 0;
-        for(int i : noDupes) arr[index++] = i;
+        for (int i : noDupes) arr[index++] = i;
 
         return arr;
     }
