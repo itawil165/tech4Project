@@ -34,10 +34,7 @@ public class _27_Remove_Duplicate_Numbers_In_An_Array {
 
         return arr;
     }
-
-    public static String[] noDupes2 (String[] words) {
-        return new HashSet<>(Arrays.asList(words)).toArray(new String[0]);
-    }
+    
 
     public static void main(String[] args) {
 
