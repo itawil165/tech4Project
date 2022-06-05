@@ -21,7 +21,6 @@ public class _49_Second_Max_Value_In_An_Int_Array {
         for (Integer num : nums) {
             noDupeMax.add(num);
         }
-
         return new ArrayList<>(noDupeMax).get(noDupeMax.size() - 2);
     }
 
