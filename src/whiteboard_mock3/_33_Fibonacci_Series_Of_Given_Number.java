@@ -6,7 +6,7 @@ public class _33_Fibonacci_Series_Of_Given_Number {
 
         int zero = 0, one = 1, sum;
 
-        for(int i = 0; i < number; i++){
+        for (int i = 0; i < number; i++){
             System.out.println(zero);
 
             sum = zero + one;
