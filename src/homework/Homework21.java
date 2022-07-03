@@ -35,7 +35,8 @@ public class Homework21 {
                 sum += Integer.parseInt(temp);
                 temp = "0";
             }
-        }return sum + Integer.parseInt(temp);
+        }
+        return sum + Integer.parseInt(temp);
     }
 
     // TASK 04
