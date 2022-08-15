@@ -44,7 +44,7 @@ public class Homework21 {
         int max = 0;
         String temp = str.replaceAll("[^\\d]", " ");
         String[] temp2 = temp.replaceAll("[\\s]+", " ").split(" ");
-        for (String element: temp2){
+        for (String element : temp2){
             if (!element.isEmpty()){
                 if (Integer.parseInt(element) > max) max = Integer.parseInt(element);
             }
